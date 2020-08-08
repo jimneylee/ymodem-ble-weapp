@@ -1,0 +1,10 @@
+<!--pages/controllerfw/index.wxml-->
+<view class="page">
+  <view class="page__bd page__bd_spacing">
+    <view class='flex-sp-area'>
+      <text>{{progressText}}</text>
+      <progress percent="{{updateProgress}}" stroke-width="12" show-info />
+    </view>
+    <button class="weui-btn" type="primary" bindtap='bindFirmwareUpdate'>开始升级</button>
+  </view>
+</view>

@@ -1,0 +1,10 @@
+<!--pages/home/index.wxml-->
+<view class='flex-top-view'>
+  <text decode="emsp" class="text-Top-Left" bindtap=''>&emsp;</text>
+  <text class="text-Logo-Corp">{{deviceName}}</text>
+  <text decode="emsp" class="text-Top-Right" bindtap=''>&emsp;</text>
+</view>
+
+<button class="weui-btn" type="primary" bindtap='bindSearchAction'>搜索设备</button>
+<button class="weui-btn" type="primary" bindtap='bindYModemUpdateAction'>进入升级</button>
+<button class="weui-btn" type="primary" bindtap='bindDisconnectAction'>断开设备</button>
